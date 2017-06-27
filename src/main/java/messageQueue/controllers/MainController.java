@@ -10,8 +10,7 @@ public class MainController {
   @RequestMapping("/")
   @ResponseBody
   public String index() {
-    return "Proudly handcrafted by " + 
-        "<a href='http://messageQueue.com/en'>messageQueue</a> :)";
+    return "message queue implementation";
   }
 
 }
